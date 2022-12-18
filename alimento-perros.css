@@ -1,20 +1,32 @@
-.menu{
+div.work-area{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-style: italic;
+}
+div.menu{
+    border: 1px;
     text-align: right;
 }
-.d-block{
+img.d-block{
     max-height: 520.5px;
     width: 100%;
 }
-.rounded-pill{
+img.rounded-pill{
     max-width: 80px;
 }
-.footer{
+div.concentrado{
+    padding: 25px;
+    margin: initial;
+    text-align: center;
+}
+div.footer{
     padding: 10px;
     background-color: #198b47;
     height: 100px;
     color: white;
     text-align: center;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0px;
 }
@@ -28,6 +40,6 @@
 .container-fluid{
     background: #198b47;
 }
-.navbar navbar-expand-sm navbar-dark{
-    padding: 0;
+.btn{
+    background-color: #ffc107;
 }
